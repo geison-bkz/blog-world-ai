@@ -1,6 +1,6 @@
-# a3-pensamento-digital
+# Blog World AI
 
-This template should help get you started developing with Vue 3 in Vite.
+This project was developed for the final semester work of the UC Instrumental English and Digital Thinking.
 
 ## Recommended IDE Setup
 
