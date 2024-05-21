@@ -23,12 +23,8 @@
                             <svg class="bi"><use xlink:href="#chevron-right" /></svg>
                         </RouterLink>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img
-                            class="bd-placeholder-img"
-                            src="/src/assets/images/background.jpg"
-                            alt="Thumbnail"
-                        />
+                    <div class="bd-placeholder-img col-auto d-none d-lg-block">
+                        <div class="thumb-01"></div>
                     </div>
                 </div>
             </div>
@@ -49,12 +45,8 @@
                             <svg class="bi"><use xlink:href="#chevron-right" /></svg>
                         </a>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img
-                            class="bd-placeholder-img"
-                            src="/src/assets/images/background.jpg"
-                            alt="Thumbnail"
-                        />
+                    <div class="bd-placeholder-img col-auto d-none d-lg-block">
+                        <div class="thumb-02"></div>
                     </div>
                 </div>
             </div>
@@ -75,14 +67,28 @@ import { RouterLink } from 'vue-router';
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+}
+
+.thumb-01 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/assets/images/thumb_ia_01.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.thumb-02 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/assets/images/thumb_ia_02.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 </style>
