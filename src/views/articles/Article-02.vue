@@ -58,7 +58,9 @@
         <h4>More information at:</h4>
         <ul>
             <li>
-                <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/157233"
+                <a
+                    href="https://www25.senado.leg.br/web/atividade/materias/-/materia/157233"
+                    target="_blank"
                     >Projeto de Lei n° 2338, de 2023</a
                 >
             </li>
@@ -66,12 +68,14 @@
                 <a
                     href="https://lgpdnews.com/2023/08/riscos-ponteciais-ia-protecao-dados/#:~:text=O%20vazamento%20de%20dados%20sens%C3%ADveis,ao%20vi%C3%A9s%20e%20%C3%A0%20discrimina%C3%A7%C3%A3o.
 "
+                    target="_blank"
                     >Riscos Ponteciais IA Proteção de dados
                 </a>
             </li>
             <li>
                 <a
                     href="https://www.terra.com.br/diversao/veja-os-desafios-da-privacidade-de-dados-na-era-da-inteligencia-artificial,b5a963a1d5885806f496bf045954fde79ajhndv8.html"
+                    target="_blank"
                     >Veja os desafios da privacidade de dados na era da Inteligência Artificial</a
                 >
             </li>
@@ -82,10 +86,6 @@
 <script setup></script>
 
 <style scoped>
-ul li a {
-    background: red;
-}
-
 img {
     margin-bottom: 20px;
 }

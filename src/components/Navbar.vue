@@ -9,7 +9,7 @@
                     <RouterLink
                         class="blog-header-logo text-body-emphasis text-decoration-none"
                         to="/"
-                        >World AI</RouterLink
+                        >AI World</RouterLink
                     >
                 </div>
                 <div class="col-4 d-flex justify-content-end align-items-center">

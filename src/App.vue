@@ -1,7 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router';
 import Navbar from '@/components/Navbar.vue';
-import DarkModeButton from './components/DarkModeButton.vue';
 import Banner from '@/components/Banner.vue';
 import './assets/js/color-modes';
 import Thumbnail from './components/Thumbnail.vue';
@@ -20,7 +19,6 @@ import BlogFooter from './components/BlogFooter.vue';
         </div>
     </main>
     <BlogFooter></BlogFooter>
-    <DarkModeButton></DarkModeButton>
 </template>
 
 <style scoped></style>

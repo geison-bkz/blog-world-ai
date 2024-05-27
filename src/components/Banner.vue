@@ -23,7 +23,8 @@ import { RouterLink } from 'vue-router';
 </script>
 <style scoped>
 .bg-body-secondary {
-    background-image: url();
-    background-position: center;
+    background-image: url(/src/assets/images/banner.png);
+    background-position: left;
+    background-size: cover;
 }
 </style>

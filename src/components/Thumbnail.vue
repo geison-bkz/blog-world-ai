@@ -23,12 +23,8 @@
                             <svg class="bi"><use xlink:href="#chevron-right" /></svg>
                         </RouterLink>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img
-                            class="bd-placeholder-img"
-                            src="/src/assets/images/background.jpg"
-                            alt="Thumbnail"
-                        />
+                    <div class="bd-placeholder-img col-auto d-none d-lg-block">
+                        <div class="thumb-01"></div>
                     </div>
                 </div>
             </div>
@@ -37,24 +33,23 @@
                     class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
                 >
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
-                        <h3 class="mb-0">Post title</h3>
+                        <strong class="d-inline-block mb-2 text-success-emphasis">Education</strong>
+                        <h3 class="mb-0">From the first steps to the AI classroom</h3>
                         <div class="mb-1 text-body-secondary">Nov 11</div>
                         <p class="mb-auto">
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content.
+                            The journey of artificial intelligence (AI) began in the 1950s, with
+                            pioneer Alan Turing wondering about...
                         </p>
-                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                        <RouterLink
+                            to="/article-03"
+                            class="icon-link gap-1 icon-link-hover stretched-link"
+                        >
                             Continue reading
                             <svg class="bi"><use xlink:href="#chevron-right" /></svg>
-                        </a>
+                        </RouterLink>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img
-                            class="bd-placeholder-img"
-                            src="/src/assets/images/background.jpg"
-                            alt="Thumbnail"
-                        />
+                    <div class="bd-placeholder-img col-auto d-none d-lg-block">
+                        <div class="thumb-02"></div>
                     </div>
                 </div>
             </div>
@@ -75,14 +70,28 @@ import { RouterLink } from 'vue-router';
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+}
+
+.thumb-01 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/assets/images/thumb_ia_01.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.thumb-02 {
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/assets/images/thumb_ia_02.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 </style>
