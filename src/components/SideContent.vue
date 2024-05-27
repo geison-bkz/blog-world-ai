@@ -1,10 +1,11 @@
 <template>
     <div class="position-sticky" style="top: 2rem">
         <div class="p-4 mb-3 bg-body-tertiary rounded">
-            <h4 class="fst-italic">About</h4>
+            <h4 class="fst-italic">About us</h4>
             <p class="mb-0">
-                Customize this section to tell your visitors a little bit about your publication,
-                writers, content, or something else entirely. Totally up to you.
+                We are students of Anima Education, passionate about AI and we developed this work
+                to share our knowledge and curiosity about the subject. It is a great pleasure to
+                have you as a reader of our blog.
             </p>
         </div>
 
