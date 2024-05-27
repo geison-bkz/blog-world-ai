@@ -13,26 +13,16 @@
             <h4 class="fst-italic">Recent posts</h4>
             <ul class="list-unstyled">
                 <li>
-                    <a
+                    <RouterLink
                         class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
-                        href="#"
+                        to="/article-04"
                     >
-                        <svg
-                            class="bd-placeholder-img"
-                            width="100%"
-                            height="96"
-                            xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true"
-                            preserveAspectRatio="xMidYMid slice"
-                            focusable="false"
-                        >
-                            <rect width="100%" height="100%" fill="#777" />
-                        </svg>
+                        <div class="img-article-04"></div>
                         <div class="col-lg-8">
-                            <h6 class="mb-0">Example blog post title</h6>
-                            <small class="text-body-secondary">January 15, 2024</small>
+                            <h6 class="mb-0">Use artificial intelligence for image generation</h6>
+                            <small class="text-body-secondary">May 27, 2024</small>
                         </div>
-                    </a>
+                    </RouterLink>
                 </li>
                 <li>
                     <a
@@ -94,6 +84,16 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
 
-<style scoped></style>
+<style scoped>
+.img-article-04 {
+    height: 100px;
+    width: 100%;
+    background-image: url(../assets/images/leticia.png);
+    background-position: left;
+    background-size: cover;
+}
+</style>

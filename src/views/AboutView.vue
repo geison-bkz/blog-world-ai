@@ -4,31 +4,12 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">
-                    First featurette heading.
-                    <span class="text-body-secondary">It’ll blow your mind.</span>
-                </h2>
-                <p class="lead">
-                    Some great placeholder content for the first featurette here. Imagine some
-                    exciting prose here.
-                </p>
+                <h2 class="featurette-heading fw-normal lh-1">Vitor Migliorini do Nascimento</h2>
+                <span class="text-body-secondary">vitormigli.vm@gmail.com</span>
+                <p class="lead">Engenharia Elétrica - 7 semestre</p>
+                <a href="https://www.instagram.com/vitaomn/">Instagram</a>
             </div>
-            <div class="col-md-5">
-                <svg
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                    width="500"
-                    height="500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
-                    <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                </svg>
-            </div>
+            <div class="col-md-5 banner-img vitor"></div>
         </div>
 
         <hr class="featurette-divider" />
@@ -99,4 +80,15 @@
 
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+.banner-img {
+    height: 500px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.vitor {
+    background-image: url(../assets/images/profiles/vitor-profile.jpg);
+}
+</style>
