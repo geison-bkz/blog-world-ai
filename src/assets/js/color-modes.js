@@ -76,7 +76,6 @@
                 setStoredTheme(theme);
                 setTheme(theme);
                 showActiveTheme(theme, true);
-                console.log('Ta clicando');
             });
         });
     });
