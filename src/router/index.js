@@ -4,6 +4,7 @@ import AboutView from '@/views/AboutView.vue';
 import Article01 from '@/views/articles/Article-01.vue';
 import Article02 from '@/views/articles/Article-02.vue';
 import Article03 from '@/views/articles/Article-03.vue';
+import Article04 from '@/views/articles/Article-04.vue';
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +24,10 @@ const router = createRouter({
                 {
                     path: '/article-03',
                     component: Article03,
+                },
+                {
+                    path: '/article-04',
+                    component: Article04,
                 },
             ],
         },

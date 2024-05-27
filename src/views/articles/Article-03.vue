@@ -2,7 +2,10 @@
     <h3 class="pb-4 mb-4 fst-italic border-bottom">From Anima Education</h3>
     <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1">From the first steps to the AI classroom.</h2>
-        <p class="blog-post-meta">April 10, 2024 by <a href="#">Mais um Silva</a></p>
+        <p class="blog-post-meta">
+            April 10, 2024 by
+            <a href="https://www.instagram.com/trajano_jp/">João Pedro Trajano G.S</a>
+        </p>
 
         <p>
             The journey of artificial intelligence (AI) began in the 1950s, with pioneer Alan Turing

@@ -3,7 +3,10 @@
     <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1">Regulation of the use of AI in the World.</h2>
         <p class="blog-post-meta">
-            April 10, 2024 by <a href="#">Ricardo de Almeida Campos Filho</a>
+            April 10, 2024 by
+            <a href="http://linkedin.com/in/ricardo-campos-345152237"
+                >Ricardo de Almeida Campos Filho</a
+            >
         </p>
 
         <p>
