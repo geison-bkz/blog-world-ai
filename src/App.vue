@@ -2,7 +2,6 @@
 import { RouterView } from 'vue-router';
 import Navbar from '@/components/Navbar.vue';
 import Banner from '@/components/Banner.vue';
-import './assets/js/color-modes';
 import Thumbnail from './components/Thumbnail.vue';
 import SideContent from './components/SideContent.vue';
 import BlogFooter from './components/BlogFooter.vue';
