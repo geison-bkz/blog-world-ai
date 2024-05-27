@@ -3,7 +3,7 @@
         <header class="border-bottom lh-1 py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
                 <div class="col-4 pt-1">
-                    <a class="link-secondary" href="#">Subscribe</a>
+                    <div class="logo-img"></div>
                 </div>
                 <div class="col-4 text-center">
                     <RouterLink
@@ -47,5 +47,16 @@ import { RouterLink } from 'vue-router';
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+}
+
+.logo-img {
+    height: 50px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/logo.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 </style>
