@@ -73,6 +73,81 @@
         </div>
 
         <hr class="featurette-divider" />
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Thais Dias</h2>
+                <span class="text-body-secondary">dias.shelba@gmail.com</span>
+                <p class="lead">Gestão comercial</p>
+                <a href="">Instagram</a>
+            </div>
+            <div class="col-md-5 banner-img thais"></div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Antonio Rodrigues da Mata Neto</h2>
+                <span class="text-body-secondary">antonionetodamata@gmail.com</span>
+                <p class="lead">Engenharia de Produção (5° Semestre)</p>
+                <a href="https://www.instagram.com/neto.rds/">Instagram</a>
+            </div>
+            <div class="col-md-5 order-md-1 banner-img antonio"></div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Gianluca Atademo</h2>
+                <span class="text-body-secondary">gianatademo@gmail.com</span>
+                <p class="lead">Engenharia da computação (9° semestre)</p>
+                <a href="https://www.instagram.com/atademog/">Instagram</a>
+            </div>
+            <div class="col-md-5 banner-img gianluca"></div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">João Pedro Trajano G.S</h2>
+                <span class="text-body-secondary">Trajano.jp@outlook.com</span>
+                <p class="lead">Engenharia mecânica (9° semestre)</p>
+                <a href="https://www.instagram.com/trajano.jpg/">Instagram</a>
+            </div>
+            <div class="col-md-5 order-md-1 banner-img joao"></div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Marco Antonio Cruz Junior</h2>
+                <span class="text-body-secondary">cruzmarco438@gmail.com</span>
+                <p class="lead">Engenharia elétrica (7° semestre)</p>
+                <a
+                    href="https://www.linkedin.com/in/marco-antonio-cruz-junior-0ab213190?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    >Linkedin</a
+                >
+            </div>
+            <div class="col-md-5 banner-img marco"></div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Geison dos Santos</h2>
+                <span class="text-body-secondary">geison_bf@hotmail.com</span>
+                <p class="lead">Ciência da Computação (ultimo semestre)</p>
+                <a href="https://www.instagram.com/zxgeisonxz/">Instagram</a>
+            </div>
+            <div class="col-md-5 order-md-1 banner-img geison"></div>
+        </div>
+
+        <hr class="featurette-divider" />
     </div>
 </template>
 
@@ -108,5 +183,29 @@
 
 .ricardo {
     background-image: url(../assets/images/profiles/ricardo-profile.jpg);
+}
+
+.thais {
+    background-image: url(../assets/images/profiles/thais-profile.jpg);
+}
+
+.antonio {
+    background-image: url(../assets/images/profiles/antonio-profile.jpg);
+}
+
+.gianluca {
+    background-image: url(../assets/images/profiles/gianluca-profile.jpg);
+}
+
+.joao {
+    background-image: url(../assets/images/profiles/joao-profile.jpg);
+}
+
+.marco {
+    background-image: url(../assets/images/profiles/marco-profile.jpg);
+}
+
+.geison {
+    background-image: url(../assets/images/profiles/geison-profile.jpg);
 }
 </style>
