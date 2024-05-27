@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue';
 import AboutView from '@/views/AboutView.vue';
 import Article01 from '@/views/articles/Article-01.vue';
 import Article02 from '@/views/articles/Article-02.vue';
+import Article03 from '@/views/articles/Article-03.vue';
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +22,11 @@ const router = createRouter({
             path: '/article-02',
             name: 'article-02',
             component: Article02,
+        },
+        {
+            path: '/article-03',
+            name: 'article-03',
+            component: Article03,
         },
         {
             path: '/about',

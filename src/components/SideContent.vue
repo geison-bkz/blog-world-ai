@@ -86,8 +86,8 @@
             <h4 class="fst-italic">Elsewhere</h4>
             <ol class="list-unstyled">
                 <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
                 <li><a href="#">Instagram</a></li>
+                <li><a href="#">Linkedin</a></li>
             </ol>
         </div>
     </div>
